@@ -3,7 +3,7 @@
 
 | Folder | What | Goes to |
 |--------|------|---------|
-| [`Winkr/`](Winkr/) | The unlocker itself — GUI, injected DLL, Detour nav, dump tool | build in place |
+| [`Winkr/`](Winkr/) | The prog itself — GUI, injected DLL, Detour nav, dump tool | build in place |
 | [`projects/`](projects/) | Everything the mod loader reads — junctioned wholesale | `C:\projects` |
 | [`projects/mmaps/`](projects/mmaps/) | Navmesh tiles (TrinityCore mmaps), ~2.7 GB | `C:\projects\mmaps` |
 | [`Winkr/vendor/recast/`](Winkr/vendor/recast/) | Recast (navmesh generation) — upstream `9f4ce64`, version-matched to the vendored Detour | built into the DLL |
